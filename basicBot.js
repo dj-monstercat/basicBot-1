@@ -1,10 +1,3 @@
-/**
- *Copyright 2014 Yemasthui
- *Modifications (including forks) of the code to fit personal needs are allowed only for personal use and should refer back to the original source.
- *This software is not for profit, any extension, or unauthorised person providing this software is not authorised to be in a position of any monetary gain from this use of this software. Any and all money gained under the use of the software (which includes donations) must be passed on to the original author.
- */
-
-
 (function () {
 
     API.getWaitListPosition = function(id){
@@ -226,9 +219,9 @@
         return str;
     };
 
-    var botCreator = "Matthew (Yemasthui)";
+    var botCreator = "dj-monstercat";
     var botMaintainer = "Benzi (Quoona)"
-    var botCreatorIDs = ["3851534", "4105209"];
+    var botCreatorIDs = [""];
 
     var basicBot = {
         version: "2.7.9",
@@ -243,17 +236,17 @@
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: "basicBot",
+            botName: "MR banana",
             language: "english",
             chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
-            startupCap: 1, // 1-200
-            startupVolume: 0, // 0-100
-            startupEmoji: false, // true or false
+            startupCap: 200, // 1-200
+            startupVolume: 25, // 0-25-100
+            startupEmoji: true, // true or false
             autowoot: true,
             smartSkip: true,
             cmdDeletion: true,
             maximumAfk: 120,
-            afkRemoval: true,
+            afkRemoval: false,
             maximumDc: 60,
             bouncerPlus: true,
             blacklistEnabled: true,
@@ -318,8 +311,7 @@
             autodisableInterval: null,
             autodisableFunc: function () {
                 if (basicBot.status && basicBot.settings.autodisable) {
-                    API.sendChat('!afkdisable');
-                    API.sendChat('!joindisable');
+                    API.sendChat('Loading...')
                 }
             },
             queueing: 0,
