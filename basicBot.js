@@ -228,9 +228,9 @@
         status: false,
         name: "basicBot",
         loggedInID: null,
-        scriptLink: "https://rawgit.com/Yemasthui/basicBot/master/basicBot.js",
+        scriptLink: "https://rawgit.com/dj-monstercat/basicBot-1/master/basicBot.js",
         cmdLink: "http://git.io/245Ppg",
-        chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
+        chatLink: "https://rawgit.com/dj-monstercat/basicBot-1/master/lang/en.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
@@ -238,7 +238,7 @@
         settings: {
             botName: "MR banana",
             language: "english",
-            chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
+            chatLink: "https://rawgit.com/dj-monstercat/basicBot-1/master/lang/en.json",
             startupCap: 200, // 1-200
             startupVolume: 25, // 0-25-100
             startupEmoji: true, // true or false
