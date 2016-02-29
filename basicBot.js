@@ -240,7 +240,7 @@
             language: "english",
             chatLink: "https://rawgit.com/dj-monstercat/basicBot-1/master/lang/en.json",
             startupCap: 200, // 1-200
-            startupVolume: 25, // 0-25-100
+            startupVolume: 0, // 0-25-100
             startupEmoji: true, // true or false
             autowoot: true,
             smartSkip: true,
@@ -259,7 +259,7 @@
             voteSkipLimit: 10,
             historySkip: false,
             timeGuard: true,
-            maximumSongLength: 10,
+            maximumSongLength: 500,
             autodisable: true,
             commandCooldown: 30,
             usercommandsEnabled: true,
