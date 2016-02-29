@@ -236,7 +236,7 @@
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: "MR banana",
+            botName: "Checking Bot",
             language: "english",
             chatLink: "https://rawgit.com/dj-monstercat/basicBot-1/master/lang/en.json",
             startupCap: 200, // 1-200
