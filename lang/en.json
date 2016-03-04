@@ -203,5 +203,5 @@
     "voteratio": "\/me [@%%NAME%%] @%%USERNAME%% ~ woots: %%WOOT%%, mehs: %%MEHS%%, ratio (w\/m): %%RATIO%%.",
     "website": "\/me Please visit our website: %%LINK%%",
     "youtube": "\/me [%%NAME%%] Subscribe to us on youtube: %%LINK%%",
-    "songstatistics": "\/me %%ARTIST%% - %%TITLE%%: %%WOOTS%% :+1: / %%GRABS%% :hart: / %%MEHS%%:-1:"
+    "songstatistics": "\/me %%ARTIST%% - %%TITLE%%: %%WOOTS%% :+1: / %%GRABS%% :heart: / %%MEHS%%:-1:"
 }
